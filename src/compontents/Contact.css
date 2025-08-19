@@ -1,73 +1,82 @@
 /* Contact.css */
+/* Designed to match the dark theme of Project.css and Experience.css */
 
-.contact {
-    max-width: 700px;
-    margin: 3rem auto 6rem;
-    padding: 2rem 1.5rem;
-    background-color: #111827;
-    /* consistent dark background */
-    color: #e1e9f1;
-    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    border-radius: 14px;
-    box-shadow: 0 4px 12px rgba(100, 110, 255, 0.25);
-    min-height: 40vh;
+/*
+ * The main container for all contact information.
+ * We'll use flexbox to center the content nicely.
+*/
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    /* Stack contact items vertically */
+    align-items: center;
+    /* Center the block of contact info horizontally */
+    gap: 2rem;
+    /* Creates consistent vertical space between each item */
+    margin-top: 2rem;
+    /* Adds some space below the main "Contact Me" h1 title */
 }
 
-.contact h1 {
-    font-size: 2.8rem;
-    font-weight: 800;
-    margin-bottom: 2rem;
-    color: #ffffff;
-    text-align: center;
-    letter-spacing: -0.02em;
-}
-
-.contact p {
-    font-size: 1.1rem;
-    margin-bottom: 1.4rem;
-    color: #cfd8fc;
+/*
+ * Styling for each individual line of contact info (the <p> tag).
+*/
+.contact-details p {
     display: flex;
     align-items: center;
-    gap: 0.6rem;
+    /* Vertically aligns the icon with the text */
+    font-size: 1.2rem;
+    /* Makes the contact text prominent and easy to read */
+    color: #a0a8d2;
+    /* Same muted, grayish-blue for details, from your reference */
+    font-weight: 500;
+    margin: 0;
+    /* Resets default paragraph margin */
 }
 
-.contact p a {
+/*
+ * Styling for the react-icons (Email, Phone, LinkedIn, GitHub).
+*/
+.contact-details svg {
+    font-size: 1.8rem;
+    /* Makes icons larger than the text for visual emphasis */
+    margin-right: 1rem;
+    /* Adds space between the icon and the text */
     color: #646cff;
+    /* Uses your main accent color to make icons pop */
+}
+
+/*
+ * Styling for the links (mailto, LinkedIn, GitHub URLs).
+*/
+.contact-details a {
+    color: #cfd8fc;
+    /* Uses the light-blue title color for better visibility */
     text-decoration: none;
     font-weight: 600;
     transition: color 0.3s ease;
 }
 
-.contact p a:hover,
-.contact p a:focus {
+/*
+ * Hover and focus state for links, taken from your Project.css reference.
+*/
+.contact-details a:hover,
+.contact-details a:focus {
     color: #a3a9ff;
+    /* Lighter version of accent color on hover */
+    text-decoration: underline;
     outline: none;
 }
 
-/* Icons styling */
-.contact svg {
-    color: #646cff;
-    width: 24px;
-    height: 24px;
-    flex-shrink: 0;
-}
-
-/* Responsive adjustments */
-@media (max-width: 480px) {
-    .contact {
-        padding: 1.5rem 1rem;
+/*
+ * Responsive adjustments for smaller screens.
+*/
+@media (max-width: 768px) {
+    .contact-details p {
+        font-size: 1.1rem;
+        /* Slightly smaller text on tablets and mobile */
     }
 
-    .contact h1 {
-        font-size: 2.2rem;
-    }
-
-    .contact p {
-        font-size: 1rem;
-    }
-
-    .contact svg {
-        width: 20px;
-        height: 20px;
+    .contact-details svg {
+        font-size: 1.6rem;
     }
 }
