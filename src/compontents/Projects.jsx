@@ -26,7 +26,7 @@ function Projects() {
                     <a href="https://www.vglabs.online/" target="_blank" rel="noopener noreferrer">
                         <FaGlobe className="project-icon" /> Live Demo
                     </a>
-                    <a href="https://github.com/vishnuvardhnareddy/DRIVE_lOCKER" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/S-Gangadhar-tech/Drive_Locker" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="project-icon" /> GitHub Repo
                     </a>
                     <a href="https://api.vglabs.online/api/v1.0/swagger-ui/index.html#" target="_blank" rel="noopener noreferrer">
