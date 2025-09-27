@@ -1,4 +1,5 @@
 import React from 'react';
+import { FaGithub, FaDocker, FaServer, FaGlobe } from 'react-icons/fa';
 import gitIcon from '../assets/github.png';
 import reactIcon from '../assets/react.png';
 import springBootIcon from '../assets/springboot.svg';
@@ -19,9 +20,20 @@ function Projects() {
                     A full-stack application where users can register and store files. Includes a private folder with secret code access. Features include file upload, secure access, and role-based permissions.
                 </p>
                 <p>Date: July 2025</p>
+
+                {/* Project Links */}
                 <div className="project-links">
-                    <a href="https://github.com/vishnuvardhnareddy/DRIVE_lOCKER">
-                        <img src={gitIcon} alt="GitHub" width="20" height="20" /> GitHub
+                    <a href="https://www.vglabs.online/" target="_blank" rel="noopener noreferrer">
+                        <FaGlobe className="project-icon" /> Live Demo
+                    </a>
+                    <a href="https://github.com/vishnuvardhnareddy/DRIVE_lOCKER" target="_blank" rel="noopener noreferrer">
+                        <FaGithub className="project-icon" /> GitHub Repo
+                    </a>
+                    <a href="https://api.vglabs.online/api/v1.0/swagger-ui/index.html#" target="_blank" rel="noopener noreferrer">
+                        <FaServer className="project-icon" /> Server API
+                    </a>
+                    <a href="https://hub.docker.com/r/sgangadhartech/drivelocker-server/tags" target="_blank" rel="noopener noreferrer">
+                        <FaDocker className="project-icon" /> Docker Hub
                     </a>
                 </div>
 
@@ -52,7 +64,7 @@ function Projects() {
                 </p>
                 <p>Date: March 2025</p>
                 <div className="project-links">
-                    <a href="https://github.com/S-Gangadhar-tech/NewsPage">
+                    <a href="https://github.com/S-Gangadhar-tech/NewsPage" target="_blank" rel="noopener noreferrer">
                         <img src={gitIcon} alt="GitHub" width="20" height="20" /> GitHub
                     </a>
                 </div>
@@ -72,6 +84,5 @@ function Projects() {
         </div>
     );
 }
-
 
 export default Projects;

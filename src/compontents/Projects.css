@@ -5,7 +5,7 @@
     margin: 0 auto;
     padding: 3rem 2rem 6rem;
     background-color: #111827;
-    /* same dark background */
+    /* dark background */
     color: #e1e9f1;
     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     min-height: 90vh;
@@ -23,7 +23,7 @@
 /* Each project card */
 .project-item {
     background: #1f2937;
-    /* slightly lighter dark block */
+    /* slightly lighter block */
     padding: 2rem 2.2rem;
     border-radius: 14px;
     box-shadow: 0 4px 12px rgba(100, 110, 255, 0.3);
@@ -50,37 +50,57 @@
     font-weight: 500;
 }
 
-/* Links container: GitHub and Live Demo */
+/* ========================= */
+/* Project Links (GitHub, Live Demo, API, Docker) */
+/* ========================= */
+
 .project-links {
-    margin-bottom: 1.4rem;
-    font-size: 1rem;
-    color: #e1e9f1;
+    margin-bottom: 1.6rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    /* spacing between buttons */
 }
 
 .project-links a {
-    color: #646cff;
+    color: #e1e9f1;
     font-weight: 600;
     text-decoration: none;
     display: inline-flex;
     align-items: center;
-    gap: 0.4rem;
-    transition: color 0.25s ease;
+    gap: 0.5rem;
+    background: #222f43;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.25s ease;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.3);
 }
 
 .project-links a:hover,
 .project-links a:focus {
-    color: #a3a9ff;
+    color: #ffffff;
+    background: #646cff;
+    /* same accent color as other components */
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(100, 110, 255, 0.4);
     outline: none;
 }
 
-/* Tech stack container */
+.project-icon {
+    font-size: 1.2rem;
+    flex-shrink: 0;
+}
+
+/* ========================= */
+/* Tech Stack Section */
+/* ========================= */
+
 .tech-stack {
     display: flex;
     gap: 1.8rem;
     flex-wrap: wrap;
 }
 
-/* Each tech item */
 .tech-stack>div {
     display: flex;
     align-items: center;
@@ -95,7 +115,6 @@
     filter: drop-shadow(0 0 6px #646cffcc);
 }
 
-/* Tech stack image */
 .tech-stack img {
     width: 36px;
     height: 36px;
@@ -105,14 +124,16 @@
     box-shadow: 0 2px 6px #1a2243cc;
 }
 
-/* Tech label */
 .tech-stack span {
     font-size: 1rem;
     user-select: none;
     font-weight: 600;
 }
 
+/* ========================= */
 /* Responsive adjustments */
+/* ========================= */
+
 @media (max-width: 768px) {
     .project-item p {
         font-size: 0.95rem;
@@ -139,5 +160,16 @@
 
     .project-item h2 {
         font-size: 1.4rem;
+    }
+
+    .project-links {
+        flex-direction: column;
+        gap: 0.8rem;
+        /* tighter spacing on small screens */
+    }
+
+    .project-links a {
+        width: 100%;
+        justify-content: center;
     }
 }
