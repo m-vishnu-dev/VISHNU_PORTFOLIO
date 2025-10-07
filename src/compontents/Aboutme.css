@@ -189,3 +189,45 @@
         margin-top: 2rem;
     }
 }
+
+/* Add these styles to the end of Aboutme.css */
+
+/* Container for the product management skill tags */
+.pm-skills-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.8rem 1rem;
+    /* Vertical and horizontal gap */
+    margin-top: 1.5rem;
+    padding: 0 1rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Individual skill tag style */
+.pm-skill-tag {
+    background-color: #222f43;
+    /* Dark blue-gray from your theme */
+    color: #d1d9ff;
+    padding: 8px 16px;
+    border-radius: 20px;
+    /* Creates the "pill" shape */
+    font-size: 0.95rem;
+    font-weight: 500;
+    border: 1px solid #4a5568;
+    transition: all 0.2s ease-in-out;
+    cursor: default;
+    /* Indicates it's not clickable */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.pm-skill-tag:hover {
+    background-color: #3e4c63;
+    border-color: #646cff;
+    /* Highlight with your accent color */
+    transform: translateY(-3px);
+    /* Slight lift effect on hover */
+    color: #ffffff;
+}

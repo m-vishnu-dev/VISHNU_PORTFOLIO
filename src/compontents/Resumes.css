@@ -1,0 +1,120 @@
+/* Resumes.css */
+
+.resumes-page {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 3rem 2rem 6rem;
+    background-color: #111827;
+    /* Same dark background */
+    color: #e1e9f1;
+    /* Light text */
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.resumes-page h1 {
+    font-size: 2.8rem;
+    font-weight: 800;
+    margin-bottom: 1rem;
+    color: #ffffff;
+    text-align: center;
+}
+
+.intro-text {
+    font-size: 1.1rem;
+    color: #a0a8d2;
+    text-align: center;
+    margin-bottom: 3rem;
+    max-width: 600px;
+}
+
+.resume-container {
+    display: flex;
+    justify-content: center;
+    gap: 2.5rem;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+.resume-card {
+    background-color: #1f2937;
+    /* A slightly lighter dark shade */
+    border-radius: 12px;
+    padding: 2rem;
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border: 1px solid #374151;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.resume-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(100, 108, 255, 0.3);
+    /* Accent color glow on hover */
+}
+
+.resume-card h2 {
+    font-size: 1.7rem;
+    font-weight: 700;
+    color: #d1d9ff;
+    margin-bottom: 1rem;
+}
+
+.resume-card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #cfd8fc;
+    margin-bottom: 2rem;
+}
+
+.resume-card button {
+    background-color: #646cff;
+    /* Your theme's accent color */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 1rem;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.resume-card button:hover,
+.resume-card button:focus {
+    background-color: #535bf2;
+    /* Darker shade for hover */
+    outline: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .resume-container {
+        flex-direction: column;
+        align-items: center;
+        gap: 2rem;
+    }
+
+    .resume-card {
+        max-width: 90%;
+    }
+}
+
+@media (max-width: 450px) {
+    .resumes-page h1 {
+        font-size: 2.2rem;
+    }
+
+    .intro-text {
+        font-size: 1rem;
+    }
+
+    .resume-card h2 {
+        font-size: 1.5rem;
+    }
+}

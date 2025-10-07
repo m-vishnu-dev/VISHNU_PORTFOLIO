@@ -31,9 +31,9 @@ function Aboutme() {
             <h1>About Me</h1>
             <div className="abouttext">
                 <p>
-                    I am Manda Vishnu Vardhan Reddy, a Full Stack Developer with expertise in Spring Boot and React.js. My skills span across frontend technologies like HTML5, CSS3, JavaScript, Tailwind CSS, and Bootstrap, as well as backend technologies including Servlet, JDBC, and Hibernate.<br />
-                    I am currently working as a Full Stack Web Developer at the Renu Sharma Foundation. This 3-month internship involves contributing to both frontend and backend development of real-world web applications. In addition to my development work, I also have a clear understanding of Object-Oriented Programming (OOP) and Data Structures and Algorithms (DSA) in Java.<br />
-                    My projects demonstrate my skills, such as "DRIVER_LOCKER," a full-stack application using React.js and Spring Boot that allows users to securely store and share files with a private folder protected by a secret code. I also developed "NEWSPAGE," a React-based application with JWT-based authentication for personalized news content. I am a motivated and collaborative professional with a proven ability to lead and manage time effectively.
+                    I am Manda Vishnu Vardhan Reddy, a Full Stack Developer with a strategic mindset for <strong>Product Management</strong>. My technical expertise spans across frontend technologies like HTML5, CSS3, JavaScript, React.js, Tailwind CSS, and Bootstrap, as well as backend technologies including Spring Boot, Servlet, JDBC, and Hibernate.<br />
+                    I am currently working as a Full Stack Web Developer at the Renu Sharma Foundation. This 3-month internship involves contributing to both frontend and backend development of real-world web applications. In addition to my development work, I have a clear understanding of Object-Oriented Programming (OOP) and Data Structures and Algorithms (DSA) in Java.<br />
+                    My projects demonstrate my ability to deliver end-to-end solutions, such as "DRIVER_LOCKER," a full-stack application using React.js and Spring Boot for secure file storage, and "NEWSPAGE," a React-based application with JWT-based authentication for personalized content. I am a motivated and collaborative professional with a proven ability to lead and manage time effectively, bridging the gap between technical execution and user-centric product vision.
                 </p>
                 <p>
                     I actively practice problem-solving and Data Structures and Algorithms (DSA) on coding platforms. I’ve solved 150+ problems and participated in coding contests to improve my skills.
@@ -87,6 +87,14 @@ function Aboutme() {
                     <div><img src={git} alt="Git" /><p>Git</p></div>
                     <div><img src={github} alt="GitHub" /><p>GitHub</p></div>
                     <div><img src={postman} alt="Postman" /><p>Postman</p></div>
+                </div>
+                <h2>Product & Management Skills</h2>
+                <div className="pm-skills-container">
+                    <span className="pm-skill-tag">Requirement Gathering</span>
+                    <span className="pm-skill-tag">Agile Methodologies</span>
+                    <span className="pm-skill-tag">Feature Prioritization</span>
+                    <span className="pm-skill-tag">User Feedback Analysis</span>
+                    <span className="pm-skill-tag">Competitive Analysis</span>
                 </div>
 
             </div>

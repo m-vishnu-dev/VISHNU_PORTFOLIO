@@ -64,7 +64,7 @@ function Projects() {
                 </p>
                 <p>Date: March 2025</p>
                 <div className="project-links">
-                    <a href="https://github.com/S-Gangadhar-tech/NewsPage" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/vishnuvardhnareddy/News_page" target="_blank" rel="noopener noreferrer">
                         <img src={gitIcon} alt="GitHub" width="20" height="20" /> GitHub
                     </a>
                 </div>
