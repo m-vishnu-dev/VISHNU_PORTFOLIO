@@ -1,7 +1,7 @@
 import React from 'react';
 import './Resumes.css';
-import fullStackResumePDF from '../assets/MANDA-VISHNU-VARDHAN-REDDY-productmanger (2).pdf';
-import Vishnu_Vardhan_Product from '../assets/MANDA-VISHNU-VARDHAN-REDDY-webdev.pdf';
+import Vishnu_Vardhan_Product from '../assets/MANDA-VISHNU-VARDHAN-REDDY-productmanger (2).pdf';
+import fullStackResumePDF from '../assets/manda_vishnu_vardhan_reddy_resume.pdf';
 
 function Resumes() {
     const handleDownload = (pdfFile, fileName) => {
