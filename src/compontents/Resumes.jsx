@@ -15,18 +15,21 @@ function Resumes() {
 
     return (
         <div className='resumes-page'>
-            <h1>Resumes</h1>
+            <h1>Resume</h1>
 
             <div className='resume-container'>
                 <div className='resume-card'>
                     <h2>Full Stack Developer</h2>
                     <p>
-                        A highly motivated and collaborative professional with a proven ability to lead and manage time effectively.
-                        Seeking an opportunity to apply my strong problem-solving skills and dedication to team collaboration to
-                        contribute to impactful projects within a forward-thinking organization.
+                        <p>
+                            A dedicated Full Stack Developer with hands-on experience in building scalable web applications using
+                            React, Node.js, Spring Boot, and modern tools. Completed a full-stack internship where I contributed to
+                            real-world projects, collaborated in an Agile environment, and delivered features end-to-end. Strong in
+                            problem-solving, DSA (Java), and team collaboration. Open to full-time roles and impactful opportunities.
+                        </p>
 
                     </p>
-                    <button onClick={() => handleDownload(fullStackResumePDF, 'Vishnu_Vardhan_Full_Stack_Resume.pdf')}>
+                    <button onClick={() => handleDownload(fullStackResumePDF, 'Vishnu_Full_Stack_Resume.pdf')}>
                         Download PDF
                     </button>
                 </div>

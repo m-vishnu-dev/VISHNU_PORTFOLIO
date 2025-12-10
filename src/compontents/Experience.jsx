@@ -8,21 +8,6 @@ function Experience() {
         // Use the Section component here
         <Section title="Experience">
             <div className="experience-item">
-                <h3>FULL STACK DEVELOPER & TEAM LEAD INTEN - GRAPHURA</h3>
-                <p className="experience-date">september 2025 – present</p>
-                <ul>
-                    <li>Team Lead and Full Stack Developer, managing end-to-end technical development and team
-                        operations to build scalable, real-world web applications.
-                    </li>
-                </ul>
-                <br />
-                <div className="project-links">
-                    <a href="https://drive.google.com/file/d/1qdCDizjYnBwKan3Tc2EDsdhdMrU3fqyK/view?usp=sharing" target="_blank" rel="noopener noreferrer">
-                        <FaGlobe className="project-icon" /> OFFER LETTER
-                    </a>
-                </div>
-            </div>
-            <div className="experience-item">
                 <h3>FULL STACK DEVELOPER & TEAM LEAD INTEN – Renu Foundation</h3>
                 <p className="experience-date">July 2025 – August 2025</p>
                 <ul>

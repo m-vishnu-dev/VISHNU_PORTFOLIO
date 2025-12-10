@@ -31,12 +31,20 @@ function Aboutme() {
             <h1>About Me</h1>
             <div className="abouttext">
                 <p>
-                    I am Manda Vishnu Vardhan Reddy, a Full Stack Developer with a strategic mindset for <strong>Product Management</strong>. My technical expertise spans across frontend technologies like HTML5, CSS3, JavaScript, React.js, Tailwind CSS, and Bootstrap, as well as backend technologies including Spring Boot, Servlet, JDBC, and Hibernate.<br />
-                    I am currently working as a Full Stack Web Developer at the Renu Sharma Foundation. This 3-month internship involves contributing to both frontend and backend development of real-world web applications. In addition to my development work, I have a clear understanding of Object-Oriented Programming (OOP) and Data Structures and Algorithms (DSA) in Java.<br />
-                    My projects demonstrate my ability to deliver end-to-end solutions, such as "DRIVER_LOCKER," a full-stack application using React.js and Spring Boot for secure file storage, and "NEWSPAGE," a React-based application with JWT-based authentication for personalized content. I am a motivated and collaborative professional with a proven ability to lead and manage time effectively, bridging the gap between technical execution and user-centric product vision.
+                    <strong>Hello — I'm Manda Vishnu Vardhan Reddy.</strong> I’m a Full Stack Developer with hands-on experience building and shipping production-ready applications using <strong>Node.js, Spring Boot, and React</strong>.
+                    I recently completed a Full Stack Development internship at the <strong>Renu Sharma Foundation</strong>, where I contributed to multiple real-world projects in a fast-paced, startup-driven environment.
                 </p>
+
                 <p>
-                    I actively practice problem-solving and Data Structures and Algorithms (DSA) on coding platforms. I’ve solved 150+ problems and participated in coding contests to improve my skills.
+                    During my internship, I worked across the full stack — creating clean frontend interfaces, developing robust backend services, and collaborating on deployment workflows. I apply strong <strong>DSA and OOP fundamentals in Java</strong> to write efficient, maintainable code and design scalable systems.
+                </p>
+
+                <p>
+                    Some of my notable work includes <em>DRIVER_LOCKER</em> — a secure full-stack file storage platform (React + Spring Boot) — and <em>NEWSPAGE</em> — a React application using JWT authentication and personalized content delivery. These projects strengthened my skills in architecture, API development, database design, and debugging in production environments.
+                </p>
+
+                <p>
+                    I actively practice problem-solving and Data Structures — with <strong>150+ problems solved</strong> — to continuously improve my system design and logical thinking abilities.
                 </p>
                 <div className="tech-row">
                     <a href="https://leetcode.com/u/vishnureddy45/" target="_blank" rel="noopener noreferrer">
@@ -48,16 +56,27 @@ function Aboutme() {
                         <p>GeeksforGeeks</p>
                     </a>
                 </div>
+                <br />
+                <p style={{ marginTop: '0.75rem' }}>
+                    <strong>Location:</strong> Hyderabad, India <br />
+                    <strong>Open to:</strong> Full-time roles, internships, freelance work, and collaborative projects. <br />
+                    <strong>Email:</strong>
+                    <a style={{ marginLeft: '0.5rem' }}>
+                        vr4507@gmail.com
+                    </a>
+                </p>
+
             </div>
 
             <div className="skills">
                 <h1>Skills</h1>
-                <p>I am good at these technologies.</p>
+                <p>I work with these technologies regularly.</p>
 
                 <h2>Language & Data Structures</h2>
                 <div className="tech-row">
                     <div><img src={java} alt="Java" /><p>Java</p></div>
                 </div>
+
                 <h2>Frontend</h2>
                 <div className="tech-row">
                     <div><img src={html} alt="HTML" /><p>HTML</p></div>
@@ -88,11 +107,12 @@ function Aboutme() {
                     <div><img src={github} alt="GitHub" /><p>GitHub</p></div>
                     <div><img src={postman} alt="Postman" /><p>Postman</p></div>
                 </div>
+
                 <h2>Leadership & Management</h2>
                 <div className="pm-skills-container">
                     <span className="pm-skill-tag">Team Leadership</span>
+                    <span className="pm-skill-tag">Agile / Scrum</span>
                     <span className="pm-skill-tag">Sprint Planning</span>
-                    <span className="pm-skill-tag">Agile/Scrum</span>
                     <span className="pm-skill-tag">Mentoring</span>
                     <span className="pm-skill-tag">Code Reviews</span>
                 </div>

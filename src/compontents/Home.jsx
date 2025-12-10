@@ -9,7 +9,8 @@ function Home() {
             <div className="text">
                 <h1>Hello, I'm Vishnu</h1>
                 <p>
-                    I am a Full Stack Developer and Team Leader with expertise in Node.js, Spring Boot, and React. At the Renu Sharma Foundation, I lead development efforts in a dynamic startup environment, guiding projects from concept to completion. My approach is grounded in strong problem-solving skills and a solid foundation in Data Structures using Java to build efficient, scalable applications.
+                    I'm a Full Stack Developer and Team Lead with experience in building scalable applications using Node.js, Spring Boot, and React. At the Renu Sharma Foundation, I lead development initiatives in a fast-paced startup environment—driving projects from concept to deployment.
+                    With strong problem-solving skills and a solid foundation in Data Structures & Algorithms (Java), I focus on building systems that are efficient, reliable, and user-centric.
                 </p>
 
                 {/* Location */}
