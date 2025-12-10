@@ -23,17 +23,14 @@ function Projects() {
 
                 {/* Project Links */}
                 <div className="project-links">
-                    <a href="https://www.vglabs.online/" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drivelocker-ui.vgcodes.online/" target="_blank" rel="noopener noreferrer">
                         <FaGlobe className="project-icon" /> Live Demo
                     </a>
-                    <a href="https://github.com/S-Gangadhar-tech/Drive_Locker" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/vishnuvardhnareddy/DRIVE_lOCKER" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="project-icon" /> GitHub Repo
                     </a>
-                    <a href="https://api.vglabs.online/api/v1.0/swagger-ui/index.html#" target="_blank" rel="noopener noreferrer">
+                    <a href="https://drivelocker-api.vgcodes.online/api/v1.0/swagger-ui/index.html#" target="_blank" rel="noopener noreferrer">
                         <FaServer className="project-icon" /> Server API
-                    </a>
-                    <a href="https://hub.docker.com/r/sgangadhartech/drivelocker-server/tags" target="_blank" rel="noopener noreferrer">
-                        <FaDocker className="project-icon" /> Docker Hub
                     </a>
                 </div>
 

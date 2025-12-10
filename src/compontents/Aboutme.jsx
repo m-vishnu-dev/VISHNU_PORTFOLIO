@@ -88,13 +88,13 @@ function Aboutme() {
                     <div><img src={github} alt="GitHub" /><p>GitHub</p></div>
                     <div><img src={postman} alt="Postman" /><p>Postman</p></div>
                 </div>
-                <h2>Product & Management Skills</h2>
+                <h2>Leadership & Management</h2>
                 <div className="pm-skills-container">
-                    <span className="pm-skill-tag">Requirement Gathering</span>
-                    <span className="pm-skill-tag">Agile Methodologies</span>
-                    <span className="pm-skill-tag">Feature Prioritization</span>
-                    <span className="pm-skill-tag">User Feedback Analysis</span>
-                    <span className="pm-skill-tag">Competitive Analysis</span>
+                    <span className="pm-skill-tag">Team Leadership</span>
+                    <span className="pm-skill-tag">Sprint Planning</span>
+                    <span className="pm-skill-tag">Agile/Scrum</span>
+                    <span className="pm-skill-tag">Mentoring</span>
+                    <span className="pm-skill-tag">Code Reviews</span>
                 </div>
 
             </div>

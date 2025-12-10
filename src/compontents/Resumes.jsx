@@ -1,7 +1,7 @@
 import React from 'react';
 import './Resumes.css';
-import Vishnu_Vardhan_Product from '../assets/MANDA-VISHNU-VARDHAN-REDDY-productmanger (2).pdf';
-import fullStackResumePDF from '../assets/manda_vishnu_vardhan_reddy_resume.pdf';
+// import Vishnu_Vardhan_Product from '../assets/MANDA-VISHNU-VARDHAN-REDDY-productmanger (2).pdf';
+import fullStackResumePDF from '../assets/vishnu_resume.pdf';
 
 function Resumes() {
     const handleDownload = (pdfFile, fileName) => {
@@ -27,18 +27,6 @@ function Resumes() {
 
                     </p>
                     <button onClick={() => handleDownload(fullStackResumePDF, 'Vishnu_Vardhan_Full_Stack_Resume.pdf')}>
-                        Download PDF
-                    </button>
-                </div>
-                <div className='resume-card'>
-                    <h2>Product Manager</h2>
-                    <p>
-                        Aspiring Product Manager with a strong foundation in full-stack development and a passion for
-                        building user-centric solutions. Eager to leverage my technical expertise and problem-solving skills to
-                        bridge the gap between users and engineering, define product vision, and contribute to the entire
-                        product lifecycle in an innovative organization.
-                    </p>
-                    <button onClick={() => handleDownload(Vishnu_Vardhan_Product, 'Vishnu_Vardhan_Product-Manager_Resume.pdf')}>
                         Download PDF
                     </button>
                 </div>
