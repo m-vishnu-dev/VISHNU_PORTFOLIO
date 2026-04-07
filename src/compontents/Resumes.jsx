@@ -1,7 +1,6 @@
 import React from 'react';
 import './Resumes.css';
 // Make sure these paths match your actual folder structure
-import aspring_productmanger from '../assets/vishnu__resume.pdf';
 import fullStackResumePDF from '../assets/vishnu_resume.pdf';
 
 function Resumes() {
@@ -29,20 +28,6 @@ function Resumes() {
                         problem-solving, DSA (Java), and team collaboration. Open to full-time roles and impactful opportunities.
                     </p>
                     <button onClick={() => handleDownload(fullStackResumePDF, 'Vishnu_Full_Stack_Resume.pdf')}>
-                        Download PDF
-                    </button>
-                </div>
-
-                {/* Card 2: Product Manager */}
-                <div className='resume-card'>
-                    <h2>Associate Product Manager</h2>
-                    <p>
-                        Aspiring Product Manager with a strong technical foundation in full-stack development.
-                        Passionate about bridging the gap between engineering constraints and user needs.
-                        Eager to leverage technical expertise to translate requirements into actionable features,
-                        define product vision, and contribute to the product lifecycle in an innovative organization.
-                    </p>
-                    <button onClick={() => handleDownload(aspring_productmanger, 'Vishnu_PM_Resume.pdf')}>
                         Download PDF
                     </button>
                 </div>

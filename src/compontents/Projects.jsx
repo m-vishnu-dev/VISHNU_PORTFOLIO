@@ -17,7 +17,7 @@ function Projects() {
             <div className="project-item">
                 <h2>Driver_Locker</h2>
                 <p>
-                    A full-stack application where users can register and store files. Includes a private folder with secret code access. Features include file upload, secure access, and role-based permissions.
+                    A full-stack secure file storage platform. Built with OTP-based email verification, passkey protection, and role-based permissions to ensure robust data security. The UI uses Framer Motion animations for a dynamic, smooth user experience. Containerized the application with Docker for efficient deployment.
                 </p>
                 <p>Date: July 2025</p>
 
@@ -26,7 +26,7 @@ function Projects() {
                     <a href="https://drivelocker-ui.vgcodes.online/" target="_blank" rel="noopener noreferrer">
                         <FaGlobe className="project-icon" /> Live Demo
                     </a>
-                    <a href="https://github.com/vishnuvardhnareddy/DRIVE_lOCKER" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/m-vishnu-dev/DRIVE_lOCKER" target="_blank" rel="noopener noreferrer">
                         <FaGithub className="project-icon" /> GitHub Repo
                     </a>
                     <a href="https://drivelocker-api.vgcodes.online/api/v1.0/swagger-ui/index.html#" target="_blank" rel="noopener noreferrer">
@@ -48,6 +48,10 @@ function Projects() {
                         <img src={sqlIcon} alt="SQL" title="SQL Database" />
                         <span>SQL</span>
                     </div>
+                    <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', justifyContent: 'center' }}>
+                        <FaDocker size={40} color="#2496ED" title="Docker" style={{marginBottom: '5px'}} />
+                        <span>Docker</span>
+                    </div>
                 </div>
             </div>
 
@@ -61,7 +65,7 @@ function Projects() {
                 </p>
                 <p>Date: March 2025</p>
                 <div className="project-links">
-                    <a href="https://github.com/vishnuvardhnareddy/News_page" target="_blank" rel="noopener noreferrer">
+                    <a href="https://github.com/m-vishnu-dev/News_page" target="_blank" rel="noopener noreferrer">
                         <img src={gitIcon} alt="GitHub" width="20" height="20" /> GitHub
                     </a>
                 </div>

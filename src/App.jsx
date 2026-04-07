@@ -19,8 +19,19 @@ function App() {
   // Function to toggle the menu's open/close state
   const handleToggle = () => setMenuOpen(prev => !prev);
 
-  // Function to close the menu (used when a link is clicked)
-  const handleClose = () => setMenuOpen(false);
+
+
+  // Function to scroll smoothly and update URL without a hash
+  const scrollToSection = (e, id) => {
+    e.preventDefault();
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+    // Update the URL to cleanly show the section name without a '#'
+    window.history.pushState(null, '', id === 'home' ? '/' : '/' + id);
+    setMenuOpen(false); // Close mobile menu if open
+  };
 
   return (
     <div>
@@ -30,15 +41,13 @@ function App() {
 
         {/* Navigation Links */}
         <ul className={`nav-links ${menuOpen ? 'open' : ''}`}>
-          {/* This is the correct and final navigation setup.
-            Each 'href' MUST start with '#' to scroll to the correct section on the same page.
-          */}
-          <li><a href="#home" onClick={handleClose}>Home</a></li>
-          <li><a href="#aboutme" onClick={handleClose}>About Me</a></li>
-          <li><a href="#projects" onClick={handleClose}>Projects</a></li>
-          <li><a href="#experience" onClick={handleClose}>Experience</a></li>
-          <li><a href="#resumes" onClick={handleClose}>Resumes</a></li>
-          <li><a href="#contact" onClick={handleClose}>Contact</a></li>
+          {/* This prevents the hash from showing in the URL while maintaining smooth scroll */}
+          <li><a href="#home" onClick={(e) => scrollToSection(e, 'home')}>Home</a></li>
+          <li><a href="#aboutme" onClick={(e) => scrollToSection(e, 'aboutme')}>About Me</a></li>
+          <li><a href="#projects" onClick={(e) => scrollToSection(e, 'projects')}>Projects</a></li>
+          <li><a href="#experience" onClick={(e) => scrollToSection(e, 'experience')}>Experience</a></li>
+          <li><a href="#resumes" onClick={(e) => scrollToSection(e, 'resumes')}>Resumes</a></li>
+          <li><a href="#contact" onClick={(e) => scrollToSection(e, 'contact')}>Contact</a></li>
         </ul>
 
         {/* Hamburger Menu Icon for Mobile */}

@@ -23,8 +23,8 @@ function Contact() {
                 </p>
                 <p>
                     <FaGithub /> GitHub:{' '}
-                    <a href="https://github.com/vishnuvardhnareddy" target="_blank" rel="noopener noreferrer">
-                        github.com/vishnuvardhnareddy
+                    <a href="https://github.com/m-vishnu-dev" target="_blank" rel="noopener noreferrer">
+                        github.com/m-vishnu-dev
                     </a>
                 </p>
             </div>
