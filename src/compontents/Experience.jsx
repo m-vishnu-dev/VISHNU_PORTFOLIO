@@ -20,6 +20,9 @@ function Experience() {
                     <a href="https://drive.google.com/file/d/1tkPlCMalTtFQw6TO4u67V8BWbGDMLQDa/view?usp=sharing" target="_blank" rel="noopener noreferrer">
                         <FaGlobe className="project-icon" /> Offer Letter
                     </a>
+                    <a href="https://drive.google.com/file/d/1f8HeUz0RWlQuRc2dZZOv5RaxnJ_GBTRW/view?usp=drive_link" target="_blank" rel="noopener noreferrer">
+                        <FaGlobe className="project-icon" /> Certificate
+                    </a>
                 </div>
             </div>
             <div className="experience-item">

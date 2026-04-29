@@ -6,6 +6,7 @@ import Home from "./compontents/Home";
 import Aboutme from "./compontents/Aboutme";
 import Projects from "./compontents/Projects";
 import Experience from './compontents/Experience';
+import Education from './compontents/Education';
 import Resumes from './compontents/Resumes';
 import Contact from "./compontents/Contact";
 
@@ -46,6 +47,7 @@ function App() {
           <li><a href="#aboutme" onClick={(e) => scrollToSection(e, 'aboutme')}>About Me</a></li>
           <li><a href="#projects" onClick={(e) => scrollToSection(e, 'projects')}>Projects</a></li>
           <li><a href="#experience" onClick={(e) => scrollToSection(e, 'experience')}>Experience</a></li>
+          <li><a href="#education" onClick={(e) => scrollToSection(e, 'education')}>Education</a></li>
           <li><a href="#resumes" onClick={(e) => scrollToSection(e, 'resumes')}>Resumes</a></li>
           <li><a href="#contact" onClick={(e) => scrollToSection(e, 'contact')}>Contact</a></li>
         </ul>
@@ -65,6 +67,7 @@ function App() {
         <section id="aboutme"><Aboutme /></section>
         <section id="projects"><Projects /></section>
         <section id="experience"><Experience /></section>
+        <section id="education"><Education /></section>
         <section id="resumes"><Resumes /></section>
         <section id="contact"><Contact /></section>
       </div>

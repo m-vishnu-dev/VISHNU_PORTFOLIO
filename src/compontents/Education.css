@@ -1,0 +1,60 @@
+/* Education.css */
+
+.education-item {
+    background: #1f2937;
+    padding: 2rem 2.2rem;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(100, 110, 255, 0.3);
+    margin-bottom: 2.5rem;
+    transition: transform 0.3s ease;
+}
+
+.education-item:hover {
+    transform: translateY(-5px);
+}
+
+.education-item:last-child {
+    margin-bottom: 0;
+}
+
+.education-item h3 {
+    font-size: 1.8rem;
+    color: #cfd8fc;
+    margin-bottom: 0.6rem;
+    font-weight: 700;
+}
+
+.education-institution {
+    color: #e2e8f0;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-bottom: 0.4rem;
+}
+
+.education-date {
+    color: #a0a8d2;
+    font-size: 1rem;
+    font-style: italic;
+    margin-bottom: 0.6rem;
+}
+
+.education-score {
+    color: #646cff;
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+}
+
+@media (max-width: 768px) {
+    .education-item h3 {
+        font-size: 1.5rem;
+    }
+    .education-institution {
+        font-size: 1.1rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .education-item h3 {
+        font-size: 1.3rem;
+    }
+}
